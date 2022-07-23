@@ -8,7 +8,7 @@
   spec:
     rules:
     # change host as per your ingress
-    - host: sample.docker.internal
+    - host: localhost.example
       http:
         paths:
         - backend:
