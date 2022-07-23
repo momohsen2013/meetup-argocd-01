@@ -12,7 +12,9 @@
       http:
         paths:
         - backend:
-            serviceName: sample-service
-            servicePort: 80
-          pathType: prefix
+            service:
+              name: sample-service
+              port:
+                number: 80
+          pathType: Prefix
           path: /
